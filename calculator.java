@@ -1,4 +1,4 @@
-public class calculator {
+public class calculator extends ext_calculator {
 
    
 
@@ -84,6 +84,9 @@ public class calculator {
         System.out.println("Multiplication: " + multiplicationResult);
 
         System.out.println("Division: " + divisionResult);
+        System.out.println("Square : "+ square(operand1));
+
+        System.out.println("Cube: "+ cube(operand1));
 
       
     }
